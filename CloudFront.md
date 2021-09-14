@@ -17,3 +17,5 @@ A content delivery network (CDN) is system of distributed servers (network) that
 ## CloudFront vs S3  Transfer Acceleration
 
 S3 Transfer Acceleration optimizes the TCP protocol and adds additional intelligence between the client and the S3 bucket, making **S3 Transfer Acceleration** a better choice if a **higher throughput** is desired. If you have objects that are **smaller than 1GB** or if the data set is less than 1GB in size, you should consider using **Amazon CloudFront**'s PUT/POST commands for optimal performance.
+#
+S3 Pre-signed URLs
